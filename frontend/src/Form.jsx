@@ -54,6 +54,7 @@ const Form = () => {
       document.getElementById("fileInput").value = "";
     } catch (err) {
       console.error("Error uploading images:", err);
+      alert("Image is not Uploaded");
     }
   };
 
